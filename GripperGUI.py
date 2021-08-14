@@ -10,6 +10,12 @@ class GripperGUI:
         # Inherit tkinter attributes/methods
         self.master = master
         master.title("Automated Gripper Control")
+
+        # Determine the size of the current screen and size GUI window accordingly.
+        # Double check that this works correctly on a multi-screen setup
+        # height = master.winfo_screenheight()
+        # width = master.winfo_screenwidth()
+        # master.geometry('%sx%s' % (int(width*0.6), int(height*0.4))
         master.geometry('650x300')  # Possibly remove this and opt for an autosize at end
 
         # Inherit Gripper attributes/methods
