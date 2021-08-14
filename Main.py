@@ -1,6 +1,9 @@
 from tkinter import *
 import time
 
+#test comment
+#another test comment
+
 # Import Gripper and GripperGUI classes
 from Gripper import Gripper
 from GripperGUI import GripperGUI
